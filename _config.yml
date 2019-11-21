@@ -1,5 +1,5 @@
-name:               "Leo's very first Blog"
-description:        "THE LION"
+name:               "Leo's First Blog"
+description:        "The Lion"
 
 url:                ""
 author:             "thinker3197"
@@ -27,8 +27,10 @@ markdown:           kramdown
 nav:
   - name:           "About"
     href:           "/about"
-  - name:           "Download"
-    href:           "/releases"
+  - name:           "Post"
+    href:           "/post"
+  - name:           "TIL"
+    href:           "/til"
 
 sass:
   style:            :compressed

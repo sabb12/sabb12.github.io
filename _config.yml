@@ -1,7 +1,7 @@
 name:               "Leo's first blog"
 description:        "I am a programmer"
 
-url:                ""
+url:                "https://sabb12.github.io/"
 author:             "leo"
 email:              ""
 #gravatar_hash:      ""
@@ -60,3 +60,5 @@ defaults:
 gems:
   - jekyll-paginate
 
+plugins:
+  - jekyll-sitemap

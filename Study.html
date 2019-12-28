@@ -1,0 +1,15 @@
+---
+layout: Study
+
+---
+
+<h1>Study</h1>
+
+<ul>
+    {% for Study in site.categories.Study %}
+      <li>
+        <a href="{{site.baseurl}}{{Study.url}}">{{Study.title}}</a>
+       <!--- <p>{{TIL.desription}}</p>-->
+      </li>
+    {% endfor %}
+</ul>

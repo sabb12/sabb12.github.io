@@ -31,6 +31,8 @@ nav:
     href:           "/TIL"
   - name:           "post"
     href:           "/post"
+  - name:           "Study"
+    href:           "/Study"
 
 
 sass:
@@ -55,6 +57,12 @@ defaults:
       type:         "TIL"
     values:
       layout:       "TIL"
+  -
+    scope:
+      path:         ""
+      type:         "Study"
+    values:
+      layout:       "Study"    
 
 
 gems:
